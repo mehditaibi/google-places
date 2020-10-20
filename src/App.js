@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import usePlacesAutocomplete, {
-  getGeocode,
-  getLatLng,
-  getDetails,
+  getDetails
 } from "use-places-autocomplete";
 import useOnclickOutside from "react-cool-onclickoutside";
 import styled from "styled-components";
